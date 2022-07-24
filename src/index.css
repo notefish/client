@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+:root {
+    --btn-primary: hsl(235deg 70% 69%);
+    --btn-primary-hover: hsl(235deg 70% 65%);
+    --btn-secondary: hsl(226deg 5% 75%);
+    --btn-secondary-hover: hsl(226deg 5% 70%);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.border {
+    border: 1px solid #dfdfdf;
+}
+
+.nf-group {
+    width: 80%;
+}
+
+.nf-input {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border: 1px solid #dfdfdf;
+}
+
+.nf-button {
+    margin: 0 0 0 .825rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem 1.5rem;
+    border: 1px solid #dfdfdf;
+    box-shadow: 3px 5px 8px 0px #efefef;
+}
+
+.nf-button.primary {
+    color: white;
+    background-color: var(--btn-primary);
+}
+
+.nf-button.primary:hover {
+    background-color: var(--btn-primary-hover);
+}
+
+.nf-button.secondary {
+    color: white;
+    background-color: var(--btn-secondary);
+}
+
+.nf-button.secondary:hover {
+    background-color: var(--btn-secondary-hover);
+}
