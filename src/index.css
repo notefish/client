@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
 
 :root {
-    --btn-primary: hsl(235deg 70% 69%);
-    --btn-primary-hover: hsl(235deg 70% 65%);
+    --btn-primary: hsl(31deg 85% 75%);
+    --btn-primary-hover: hsl(31deg 85% 70%);
     --btn-secondary: hsl(226deg 5% 75%);
     --btn-secondary-hover: hsl(226deg 5% 70%);
 }
